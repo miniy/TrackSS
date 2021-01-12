@@ -3,10 +3,9 @@
     "pins": [
       {
         "package": "KalmanFilter",
-        "repositoryURL": "https://github.com/ShreshthSaxena/KalmanFilter.git",
+        "repositoryURL": "https://github.com/miniy/KalmanFilter.git",
         "state": {
           "branch": null,
-          "revision": "f4769de4acc069a707ad5d65bf9da1c415e3d0c2",
           "version": "1.0.0"
         }
       },
