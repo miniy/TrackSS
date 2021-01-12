@@ -17,7 +17,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/miniy/KalmanFilter.git"),
+        .package(url: "https://github.com/miniy/KalmanFilter.git", .branch("master-5.2")),
         .package(url: "https://github.com/ShreshthSaxena/Upsurge.git", from: "1.0.0")
     ],
     targets: [
