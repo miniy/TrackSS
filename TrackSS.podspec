@@ -12,6 +12,6 @@ spec.swift_version = "5.2"
 spec.source       = { :git => "https://github.com/ShreshthSaxena/TrackSS.git", :tag => "#{1.0.0}" }
 spec.source_files  = "Sources/TrackSS/**/*.swift"
 spec.xcconfig = { "SWIFT_VERSION" => "5.2" }
-spec.dependency '{ :git => "https://github.com/ShreshthSaxena/KalmanFilter.git", :tag => "#{1.0.0}" }'
+spec.dependency '{ :git => "https://github.com/miniy/KalmanFilter.git", :branch => "master-5.2" }'
 spec.dependency '{ :git => "https://github.com/ShreshthSaxena/Upsurge.git", :tag => "#{1.0.0}" }'
 end
