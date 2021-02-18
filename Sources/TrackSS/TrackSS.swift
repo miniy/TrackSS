@@ -207,7 +207,11 @@ public class TrackerSS{
         let (matched,unmatched_dets,_) = associate_detections_to_trackers(detections: dets, trackers: trks)
 //        print("matches",matched)
         
-        for m in matched{
+        for m in matched {
+			guard self.trackers.indices.contains(m.1) else {
+				print("out of range detected.")
+				continue;
+			}
             self.trackers[m.1].update(bbox: dets[m.0]) //update bbox
         }
         
